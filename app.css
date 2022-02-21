@@ -1,0 +1,358 @@
+body {
+  padding: auto;
+  margin: auto;
+}
+
+/* header styling */
+.top-header {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  background: #45a199;
+}
+.top-header .contact {
+  display: flex;
+  margin-right: 20px;
+}
+.top-header .socail-media {
+  display: flex;
+  align-items: center;
+  margin: 0px 80px 0px 0px;
+}
+
+.top-header li a {
+  text-decoration: none;
+  padding: 7px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: normal;
+}
+/* lower header */
+.buttom-header li a {
+  text-decoration: none;
+}
+.buttom-header {
+  padding: 16px;
+  list-style-type: none;
+  border: 1px solid #f3f3f3;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.buttom-header > div {
+  flex: auto;
+}
+.buttom-header .home-logo {
+  margin: 0px 0px 0px -20px;
+}
+.buttom-header .home-logo li a {
+  color: #2e9188;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 90px;
+}
+.buttom-header .home-logo li sub {
+  color: #2e9188;
+}
+.buttom-header .home-buttons {
+  margin: 0px 0px 0px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.buttom-header .home-buttons li {
+  flex: auto auto 1;
+  margin: 0 0 0 80px;
+}
+.buttom-header .home-buttons li a {
+  color: #828282;
+  font-weight: bolder;
+}
+
+.buttom-header .credential-buttons {
+  margin: 0px 70px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.buttom-header .credential-buttons li {
+  text-align: center;
+  margin: 0 0 0 32px;
+}
+.buttom-header .credential-buttons li button {
+  color: #828282;
+  font-weight: bolder;
+  border: 1px solid #c4c4c4;
+  background: #ffffff;
+  padding: 6px 20px 6px 20px;
+}
+.buttom-header .credential-buttons li button:hover {
+  background: #45a199;
+  color: #ffffff;
+}
+
+/* body section */
+.body-container {
+  margin: 32px 90px 0px 90px;
+}
+/* intro section */
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+}
+.text-area {
+  margin: 48px 0 0 0;
+}
+.text-area .text1 p {
+  font-size: 30px;
+  font-weight: 800px;
+}
+.text-area .lineblock .block-line {
+  border: 5px solid #45a199;
+  width: 15%;
+}
+
+.image-area {
+  display: grid;
+  grid-gap: 10px;
+  float: right;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1 / span 5;
+}
+.one img {
+  height: max-content;
+  width: fit-content;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.search-field {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 0.5px solid #e0e0e0;
+  width: 70%;
+  margin: 16px 0 80px 0;
+}
+
+.fields {
+  border: 0.5px solid #e0e0e0;
+  align-items: center;
+  font-weight: bold;
+}
+
+.field {
+  padding: 8px;
+  border: 0.5px solid #e0e0e0;
+  align-items: center;
+}
+.field:hover {
+  background: #45a199;
+  color: #ffffff;
+}
+.location,
+.category,
+.price {
+  padding: 0 0 0 16px;
+}
+
+.location p,
+.category p,
+.price p {
+  color: #45a199;
+  font-weight: bold;
+  margin: 8px 0 0px 8px;
+}
+#locations {
+  border: none;
+  margin: 10px 0 0 1px;
+}
+#underline {
+  width: 80%;
+  border: 0.5px solid #2e9188;
+}
+
+.price-search {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.priceselect {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: #2e9188;
+  column-gap: 10px;
+  padding: 8px;
+  margin: 8px 0 0px 0;
+}
+.search {
+  background: #45a199;
+  color: #ffffff;
+}
+.search a {
+  align-items: center;
+  text-align: center;
+  padding: 38px;
+}
+
+/* --*********** Premium Properties*************  */
+/* --*********** Premium Properties*************  */
+/* --*********** Premium Properties*************  */
+/* --*********** Premium Properties*************  */
+/* --*********** Premium Properties*************  */
+.premium-property p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.premium-property .block-line {
+  width: 56px;
+  border: 4px solid #45a199;
+  margin: 0 0 50px 0;
+}
+
+/* slide show of the premium property with detail */
+/* Slideshow container */
+.slideshow-container {
+  max-width:1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(233, 227, 227, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  border: 0.7px solid black;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #45a199;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+/* --************* Footer Section **************  */
+/* --************* Footer Section **************  */
+/* --************* Footer Section **************  */
+/* --************* Footer Section **************  */
+/* --************* Footer Section **************  */
+
+footer {
+  background: #419e9d;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 60px;
+  gap: 35px;
+  text-align: center;
+}
+footer .grid-container .grid-item ul p {
+  font-size: 20px;
+  text-align: left;
+}
+
+footer .grid-container .grid-item ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+footer .grid-container .grid-item ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.grid-item .under-line {
+  border: 0.5px solid white;
+  width: 94%;
+  margin: 5px 0px 16px 0px;
+}
