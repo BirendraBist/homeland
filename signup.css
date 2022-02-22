@@ -1,19 +1,19 @@
 form {
   position: absolute;
   background-color: #ffffff;
-  width: 470px;
-  height: 490px;
-  left: 410px;
+  width: 457px;
+  height: 591px;
+  left: 480px;
   top: 138px;
   border: 0.5px solid rgba(196, 196, 196, 0.2);
   box-sizing: border-box;
   box-shadow: 0px 14px 34px rgba (0, 0, 0, 0.06);
 }
 form > div {
-  padding: 10px 45px 5px 45px;
+  padding: 10px 45px 0px 45px;
 }
 .underline {
-  width: 30px;
+  width: 40px;
   border: 3px solid #45a199;
   margin-top: -5px;
 }
@@ -24,10 +24,25 @@ p {
 .input-detail input {
   padding: 10px;
   margin-top: 12px;
-  height: 25px;
-  width: 360px;
+  height: 20px;
+  width: 350px;
 }
-
+.phone-number {
+  margin-top: 12px;
+  display: flex;
+}
+.phone-number .country-code {
+  background: #82c8c2;
+  color: #ffffff;
+  padding: 10px;
+  width: 80px;
+  border: none;
+}
+.phone-number input {
+  padding: 10px;
+  height: 20px;
+  width: 270px;
+}
 .terms-conditions {
   margin-top: 12px;
   color: #4f4f4f;
@@ -38,10 +53,10 @@ p {
   border: 1.5px solid #2f80ed;
   border-radius: 1px;
 }
-.Login-button {
+.Register-button {
   margin-top: 22px;
   height: 42px;
-  width: 145px;
+  width: 159px;
   background: #45a199;
   color: #ffffff;
   font-weight: bold;
