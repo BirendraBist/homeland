@@ -1,0 +1,59 @@
+form {
+  position: absolute;
+  background-color: #ffffff;
+  width: 457px;
+  height: 591px;
+  left: 480px;
+  top: 138px;
+  border: 0.5px solid rgba(196, 196, 196, 0.2);
+  box-sizing: border-box;
+  box-shadow: 0px 14px 34px rgba (0, 0, 0, 0.06);
+}
+form > div {
+  padding: 35px;
+}
+p {
+  color: #4f4f4f;
+  margin-top: 25px;
+}
+.input-detail input {
+  padding: 10px;
+  margin-top: 12px;
+  height: 20px;
+  width: 350px;
+}
+.phone-number {
+  margin-top: 12px;
+  display: flex;
+}
+.phone-number .country-code {
+  background: #82c8c2;
+  color: #ffffff;
+  padding: 10px;
+  width: 80px;
+  border: none;
+}
+.phone-number input {
+  padding: 10px;
+  height: 20px;
+  width: 270px;
+}
+.terms-conditions {
+  margin-top: 12px;
+  color: #4f4f4f;
+}
+.terms-conditions input {
+  height: 12px;
+  width: 12px;
+  border: 1.5px solid #2f80ed;
+  border-radius: 1px;
+}
+.Register-button {
+  margin-top: 22px;
+  height: 42px;
+  width: 159px;
+  background: #45a199;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+}
