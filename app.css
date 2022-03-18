@@ -66,7 +66,10 @@ body {
 }
 .buttom-header .home-buttons li a {
   color: #828282;
-  font-weight: bolder;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 125.5%;
 }
 
 .buttom-header .credential-buttons {
@@ -81,7 +84,10 @@ body {
 }
 .buttom-header .credential-buttons li button {
   color: #828282;
-  font-weight: bolder;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 125.5%;
   border: 1px solid #c4c4c4;
   background: #ffffff;
   padding: 6px 20px 6px 20px;
@@ -104,12 +110,25 @@ body {
   margin: 48px 0 0 0;
 }
 .text-area .text1 p {
-  font-size: 30px;
-  font-weight: 800px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 141.5%;
 }
+
 .text-area .lineblock .block-line {
+  margin-top: 25px;
+  background: #45a199;
   border: 5px solid #45a199;
   width: 15%;
+}
+.text-area .text2 p {
+  margin-top: -25px;
+  color: #828282;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 141.5%;
 }
 
 .image-area {
@@ -377,10 +396,11 @@ body {
   text-align: center;
 }
 .rent-house-flats p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   margin: 10px 0px 40px 50px;
   text-align: center;
+  line-height: 125.5%;
 }
 .rent-house-flats a {
   margin: 10px 0px 20px 120px;
@@ -411,6 +431,28 @@ body {
   font-style: normal;
   line-height: 125.5%;
   color: #807a7a;
+}
+.subscription-email-area {
+  margin: 50px 80px;
+  display: flex;
+}
+.subscription-email-area input {
+  height: 54px;
+  width: 400px;
+  background: #ffffff;
+  border: 1px solid rgba(196, 196, 196, 0.2);
+  box-sizing: border-box;
+}
+
+.subscription-email-area button {
+  height: 54px;
+  width: 150px;
+  background: #45a199;
+  border: 1px solid rgba(196, 196, 196, 0.2);
+  box-sizing: border-box;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
 }
 
 /* --************* Footer Section **************  */
