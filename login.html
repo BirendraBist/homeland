@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,7 +10,9 @@
 </head>
 
 <body>
- <form action="">
+ <button class ="openf" onclick="openform()">open</button>
+ <button class="close" onclick="closeform()">close</button>
+ <form action="" id="myform">
   <div>
    <h2>Login</h2>
    <div class="underline"></div>
@@ -26,8 +28,15 @@
    <button class="Login-button" type="submit">Login </button>
    <p>Don't have an acount, Sign up now to start booking.</p>
   </div>
-
  </form>
+ <script>
+function openform(){
+ document.getElementById("myform").style.display="block";
+}
+function closeform(){
+ document.getElementById("myform").style.display="none";
+}
+ </script>
 </body>
 
-</html>
+</html> -->

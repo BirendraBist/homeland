@@ -1,8 +1,9 @@
-form {
+.formsignup{
+  display: none;
   position: absolute;
   background-color: #ffffff;
   width: 457px;
-  height: 591px;
+  height: 580px;
   left: 480px;
   top: 138px;
   border: 0.5px solid rgba(196, 196, 196, 0.2);
@@ -10,20 +11,17 @@ form {
   box-shadow: 0px 14px 34px rgba (0, 0, 0, 0.06);
   z-index: 1;
 }
-form > div {
-  padding: 10px 45px 0px 45px;
+.formsignup > div {
+  padding: 35px 50px 0px 50px;
 }
-.underline {
+/* .underline {
   width: 40px;
   border: 3px solid #45a199;
   margin-top: -5px;
-}
-p {
-  color: #4f4f4f;
-  margin-top: 25px;
-}
+} */
+
 .input-detail input {
-  padding: 10px;
+  padding: 18px;
   margin-top: 12px;
   height: 20px;
   width: 350px;
@@ -35,12 +33,12 @@ p {
 .phone-number .country-code {
   background: #82c8c2;
   color: #ffffff;
-  padding: 10px;
+  padding: 1px;
   width: 80px;
   border: none;
 }
 .phone-number input {
-  padding: 10px;
+  padding: 18px;
   height: 20px;
   width: 270px;
 }

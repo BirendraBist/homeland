@@ -225,7 +225,7 @@ body {
 .block-line {
   background: #45a199;
   width: 60px;
-  border: 3px solid #45a199;
+  border: 2px solid #45a199;
   margin: 0 0 50px 0;
 }
 
@@ -370,9 +370,15 @@ body {
 .services {
   margin-top: 100px;
 }
-.whatcanyoudohere {
+.whatcanyoudohere p {
   align-items: center;
   text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+}
+.whatcanyoudohere .block-line {
+  margin-left: 550px;
 }
 .service {
   margin-top: 80px;
@@ -497,3 +503,8 @@ footer .grid-container .grid-item ul li a {
   width: 94%;
   margin: 5px 0px 16px 0px;
 }
+#loginform {
+  display: none;
+}
+
+/* login form  */

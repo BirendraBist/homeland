@@ -28,3 +28,14 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+function showloginform() {
+  document.getElementById("loginform").style.display = "block";
+  document.getElementById("signupform").style.display = "none";
+}
+function showsignupfrom() {
+  document.getElementById("loginform").style.display = "none";
+  document.getElementById("signupform").style.display = "block";
+}
+function closeloginform() {
+  document.getElementById("loginform").style.display = "none";
+}

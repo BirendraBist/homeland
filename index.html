@@ -22,6 +22,8 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="signup.css">
 
 </head>
 
@@ -52,11 +54,13 @@
         <li><a href="">Contact us </a></li>
       </div>
       <div class="credential-buttons">
-        <li><button>Login</button></li>
-        <li><button>SignUp</button></li>
+        <li><button onclick="showloginform()">Login</button></li>
+        <li><button onclick="showsignupfrom()">SignUp</button></li>
       </div>
     </div>
   </header>
+  <!-- body section -->
+  <!-- body section -->
   <!-- body section -->
   <section class="body-container">
     <div class="intro-section">
@@ -91,7 +95,62 @@
         </div>
       </div>
     </div>
+    <!-- loginform -->
+    <!-- loginform -->
+    <div>
+      <form class="formlogin" action="" id="loginform">
+        <div>
+          <h4>Login</h4>
+          <div class="underlinel"></div>
+          <p>Let's start to book from your favourite properties & sites.</p>
+          <div class="input-detail">
+            <input type="email" name="" id="" placeholder="Email Address / User Name"><br>
+            <input type="password" name="" id="" placeholder="Password"> <br>
+          </div>
+          <div class="terms-conditions">
+            <input type="checkbox" name="term-condition" id="term-condition">
+            <label for="checkbox"> keep me Logged in </label> <br>
+          </div>
+          <button class="Login-button" type="submit">Login </button>
+          <p>Don't have an acount, <a>Sign up</a> now to start booking.</p>
+        </div>
+      </form>
+    </div>
+    <!-- signup form -->
+    <!-- signup form -->
+    <!-- signup form -->
+    <div>
+      <form class="formsignup" action="" id="signupform">
+        <div>
+          <h4>Sign Up</h4>
+          <div class="underlinel"></div>
+          <p>To start Booking & selling, simply, fill out the form & you are ready to go.</p>
+          <div class="input-detail">
+            <input type="text" name="" id="" placeholder="First Name"> <br>
+            <input type="text" name="" id="" placeholder="Last Name"> <br>
+            <input type="email" name="" id="" placeholder="Email Address"><br>
+          </div>
+          <div class="phone-number">
+            <select class="country-code" name="" id="">
+              <option value="DK + 45">+ 45</option>
+              <option value="DE + 49">+ 49</option>
+              <option value="FI +358">+ 358</option>
+            </select>
+            <input type="tel" name="" id="" placeholder="Phone Number">
+          </div>
+          <div class="terms-conditions">
+            <input type="checkbox" name="term-condition" id="term-condition">
+            <label for="checkbox">Agree to our Terms & Policy</label> <br>
+          </div>
+          <button class="Register-button" type="submit">Register Now</button>
+          <p>Already have an acount, Login now to start booking.</p>
+        </div>
 
+      </form>
+    </div>
+    <!-- searching field -->
+    <!-- searching field -->
+    <!-- searching field -->
     <div class="search-field">
       <div class="fields">
         <div class="field">
@@ -282,7 +341,7 @@
     <!-- what can you do here  -->
     <div class="services">
       <div class="whatcanyoudohere">
-        <h5>What can you do here</h5>
+        <p>What can you do here</p>
         <div class="block-line"></div>
       </div>
       <div class="service">
@@ -321,6 +380,8 @@
       </div>
     </div>
   </section>
+  <!-- subscription section -->
+  <!-- subscription section -->
   <div class="subscription-container">
     <div class="subscription-text-area">
       <div class="text1">
@@ -406,8 +467,6 @@
 
     </div>
   </footer>
-
-
 
 
 
