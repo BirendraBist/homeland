@@ -3,7 +3,7 @@
   position: absolute;
   background-color: #ffffff;
   width: 457px;
-  height: 580px;
+  height: 550px;
   left: 480px;
   top: 138px;
   border: 0.5px solid rgba(196, 196, 196, 0.2);
@@ -19,6 +19,12 @@
   border: 3px solid #45a199;
   margin-top: -5px;
 } */
+
+#signupform p{
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 30px;
+}
 
 .input-detail input {
   padding: 18px;

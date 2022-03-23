@@ -483,7 +483,12 @@ footer {
   text-align: center;
 }
 footer .grid-container .grid-item ul p {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+}
+footer .grid-container .grid-item ul li {
+  font-size: 12px;
   text-align: left;
 }
 
