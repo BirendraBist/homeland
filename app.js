@@ -31,11 +31,10 @@ function showSlides(n) {
 function showloginform() {
   document.getElementById("loginform").style.display = "block";
   document.getElementById("signupform").style.display = "none";
+  document.body.style.background = "#E5E5E5";
 }
 function showsignupfrom() {
   document.getElementById("loginform").style.display = "none";
   document.getElementById("signupform").style.display = "block";
-}
-function closeloginform() {
-  document.getElementById("loginform").style.display = "none";
+  document.body.style.background = "#E5E5E5";
 }

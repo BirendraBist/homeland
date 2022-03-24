@@ -301,8 +301,10 @@ body {
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
   animation-name: fade;
   animation-duration: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fade {
@@ -332,6 +334,96 @@ body {
   .text {
     font-size: 11px;
   }
+}
+
+.fade .detail-info {
+  height: 171px;
+  width: 100%;
+  background: rgba(37, 115, 108, 0.8);
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  bottom: 0;
+  display: flex;
+}
+
+.fade .detail-info .name-price {
+  margin-left: 15px;
+  padding: 20px;
+}
+.fade .detail-info .p-name {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+.fade .detail-info .p-price {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+}
+.fade .detail-info .button1 {
+  width: 128px;
+  height: 44px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+  border: 0.5px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  backdrop-filter: blur(14px);
+}
+.fade .detail-info .button2 {
+  margin-left: 15px;
+  width: 128px;
+  height: 44px;
+  color: #135a54;
+  background: #ffffff;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0px 44px 64px rgba(0, 0, 0, 0.21);
+}
+
+.fade .detail-info .location-area {
+  display: flex;
+  width: 634px;
+  height: 125px;
+  background: #ffffff;
+  margin: 30px 0px 0px 80px;
+}
+.fade .detail-info .location-area .location {
+  background: #45a199;
+}
+.fade .detail-info .location-area .location .p-location {
+  padding: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.fade .detail-info .location-area .location .p-address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 10px;
+}
+.location-area .details {
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 25px;
+}
+.location-area .details,
+.p-ta {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+.location-area .details,
+.p-a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
 }
 /*!--*********** Featured Properties & Housing ************* --*/
 /*!--*********** Featured Properties & Housing ************* --*/
@@ -415,7 +507,6 @@ body {
 /* --************* subscription container *********/
 /* --************* subscription container *********/
 /* --************* subscription container *********/
-/* --************* subscription container *********/
 .subscription-container {
   margin-top: 150px;
   height: 236px;
@@ -464,8 +555,6 @@ body {
 /* --************* Footer Section **************  */
 /* --************* Footer Section **************  */
 /* --************* Footer Section **************  */
-/* --************* Footer Section **************  */
-/* --************* Footer Section **************  */
 
 footer {
   background: #419e9d;
@@ -508,8 +597,3 @@ footer .grid-container .grid-item ul li a {
   width: 94%;
   margin: 5px 0px 16px 0px;
 }
-#loginform {
-  display: none;
-}
-
-/* login form  */
